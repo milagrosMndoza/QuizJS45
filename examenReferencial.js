@@ -3,27 +3,27 @@
 var n1 = parseInt(prompt("ingrese el primer numero"));
 var n2 = parseInt(prompt('ingrese el segundo numero'));
 var n3 = parseInt(prompt('ingrese el tercer numero'));
-if((n1>n2)&&(n1>n3)){
+if((n1>=n2)&&(n1>=n3)){
 	var respuesta = n1;
 	console.log("El numero mayor es: " + n1)
 }
-else if ((n2>n1)&&(n2>n3)){
+else if ((n2>=n1)&&(n2>=n3)){
 	respuesta= n2;
 	console.log("El numero mayor es: " + n2)
 }
-else if ((n3>n1)&&(n3>n2)){
+else if ((n3>=n1)&&(n3>=n2)){
 	respuesta = n3;
 	console.log("El numero mayor es : " + n3)
 }
-if ((n1<n2)&&(n1<n3)){
+if ((n1<=n2)&&(n1<=n3)){
 respuesta = n1;
 	console.log("El numero menor es : " + n1)
 }
-else if ((n2<n1)&&(n2<n3)){
+else if ((n2<=n1)&&(n2<=n3)){
 respuesta = n2;
 	console.log("El numero menor es : " + n2)
 }
-else if ((n3<n1)&&(n3<n2)){
+else if ((n3<=n1)&&(n3<=n2)){
 respuesta = n3;
 	console.log("El numero menor es : " + n3)
 }
